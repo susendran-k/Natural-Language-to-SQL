@@ -1,5 +1,5 @@
 # 🏛️ Aadhar Insight: Sophisticated Data Intelligence
-![Aadhar Insight Dashboard](dashboard visual.png)
+![Aadhar Insight Dashboard](dashboard%20visual.png)
 An AI-powered analytics agent designed to query, visualize, and analyze **2.2 Million rows** of UIDAI Aadhar enrollment data using Natural Language.
 
 ## 🚀 Project Overview
