@@ -1,4 +1,6 @@
 import os
+
+from dotenv import load_dotenv
 from llama_index.core import Settings
 from llama_index.llms.gemini import Gemini
 from llama_index.embeddings.gemini import GeminiEmbedding
@@ -7,6 +9,7 @@ from llama_index.core import PromptTemplate
 
 # 1. Import the already-created connection from your main file
 from database_connection import sql_database
+load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 # 2. Setup  API Key
 os.environ["GOOGLE_API_KEY"] = api_key

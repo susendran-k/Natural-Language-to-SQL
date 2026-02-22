@@ -1,7 +1,9 @@
+from dotenv import load_dotenv
 from sqlalchemy import create_engine
 from llama_index.core import SQLDatabase
 import os
 
+load_dotenv()
 db_pass = os.getenv("DB_PASSWORD")
 db_host = os.getenv("DB_HOST")
 db_name = os.getenv("DB_NAME")
